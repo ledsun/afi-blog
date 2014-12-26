@@ -1,0 +1,16 @@
+{
+  "name": "afi_blog",
+  "version": "0.0.1",
+  "description": "2014年で読んだ漫画の面白かったやつ作るためのコマンド",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cat data.json | node index.js > bundle.md"
+  },
+  "author": "ledsun",
+  "license": "MIT",
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "hogan": "^1.0.2"
+  }
+}
